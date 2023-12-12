@@ -1,0 +1,10 @@
+head {
+    background-color: blue;
+}
+
+.div-1 {
+    background-color: rgb(98, 108, 202);
+    padding: 20PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
