@@ -3,7 +3,7 @@
 
 <head>
     <title>SAN PEDRO/El placer de viajar</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -47,10 +47,39 @@
                     </div>
                 </center>
     </header>
-
-
-    </form>
-
+    <section>
+        <main>
+            <center>
+                <H2>Lugares Turisticos</H2>
+                <div class="imagen-1">
+                    <img src="Fotos/Turismo a Huanuco.png" alt="imagen del Bus de la empresa">
+                    <figcaption>Ven con nosotros a Huanuco</figcaption>
+                </div>
+            </center>
+        </main>
+    </section>
+    <br>
+    
+        <h2>Escribenos</h2>
+      
+        <form action="/procesar_formulario" method="post">
+          <!-- Campo de nombre -->
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+      
+          <!-- Campo de correo electrónico -->
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <!-- Campo de mensaje -->
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      
+          <!-- Botón de enviar -->
+          <button type="submit">Enviar</button>
+        </form>
+      
+      
 </body>
 
 </html>
