@@ -8,3 +8,78 @@ head {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
+
+IMG {
+    background-color: gold;
+    justify-content: center;
+    margin-top: 10px;
+    height: 300px;
+
+}
+
+.imagen img {
+    width: 350px;
+    height: 200px;
+    margin: 40px;
+}
+
+h2 {
+    color: rgb(98, 108, 202);
+}
+
+h5 {
+    color: aliceblue;
+    margin-top: 5px;
+    justify-content: center;
+    text-align: left;
+    display: block;
+    align-content: center;
+    margin-inline-end: auto;
+}
+body {
+    background-color: gold;
+    color: rgb(31, 31, 25);
+}
+.MODULOS h2 {
+
+    text-align: center;
+    color: #626cca;
+    font-weight: bold;
+}
+
+.conteiner {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+form {
+    background-color: #626cca;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;}
