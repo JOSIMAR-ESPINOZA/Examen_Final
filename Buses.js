@@ -1,4 +1,4 @@
-const carrusel = document.getElementById('carrusel');
+const carrusel=document.getElementById('carrusel');
     let currentIndex = 0;
 
     function mostrarDiapositiva(index) {
